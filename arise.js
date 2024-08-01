@@ -15,5 +15,5 @@ const swertres = (num1,num2,num3) =>{
 }
 
 for(let i = 0; i < 10; i++){
-    console.log(swertres(1, 6, 9));
+    console.log(swertres(3,0,9));
 }

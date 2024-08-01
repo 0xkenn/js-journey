@@ -1,0 +1,1 @@
+console.log((20.95 + 22.95).toFixed(2));

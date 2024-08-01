@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">0xkenn made with ❤️</h1>
+        <table id="calculator">
+            <tr>
+                <td colspan="4">
+                    <input type="text" name="result" id="result" disabled>
+                </td>
+                
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="%" onclick="display('%')">
+                    <td>
+                        <input type="button" value="CE" onclick="clear()">
+
+                    </td>
+                    <td>
+                        <input type="button" value="C" id="clear" onclick="clear()">
+                    </td>
+                    <td>
+                        <input type="button" value="x" onclick="display('x')">
+                    </td>
+                </td>
+            </tr>
+
+            <!-- 2nd table row -->
+            <tr>
+                <td>
+                    <input type="button" value="7" onclick="display('7')">
+                    <td>
+                        <input type="button" value="8" onclick="display('8')">
+
+                    </td>
+                    <td>
+                        <input type="button" value="9" onclick="display('9')">
+                    </td>
+                    <td>
+                        <input type="button" value="/" onclick="display('/')">
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="4" onclick="display('4')">
+                    <td>
+                        <input type="button" value="5" onclick="display('5')">
+
+                    </td>
+                    <td>
+                        <input type="button" value="6" onclick="display('6')">
+                    </td>
+                    <td>
+                        <input type="button" value="-" onclick="display('-')">
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="1" onclick="display('1')">
+                    <td>
+                        <input type="button" value="2" onclick="display('2')">
+
+                    </td>
+                    <td>
+                        <input type="button" value="3" onclick="display('3')">
+                    </td>
+                    <td>
+                        <input type="button" value="+" onclick="display('+')">
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="sqrt" type="button" value="√" onclick="sqrt('√')">
+                    <td>
+                        <input type="button" value="0">
+
+                    </td>
+                    <td>
+                        <input type="button" value=".">
+                    </td>
+                    <td>
+                        <input type="button" value="=" id="calculate" onclick="calculate()">
+                    </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.5.0/tsparticles.bundle.min.js"></script>
+    <script src="tsparticles.js"></script>
+</body>
+</html>
